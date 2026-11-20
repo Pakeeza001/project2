@@ -1,0 +1,17 @@
+Nov 13 08:14:22 ubuntu-server sshd[1421]: Failed password for root from 192.168.1.45 port 54322 ssh2
+Nov 13 08:14:25 ubuntu-server sshd[1421]: Failed password for root from 192.168.1.45 port 54322 ssh2
+Nov 13 08:14:28 ubuntu-server sshd[1421]: Failed password for root from 192.168.1.45 port 54322 ssh2
+Nov 13 08:14:29 ubuntu-server sshd[1421]: Connection closed by authenticating user root 192.168.1.45 port 54322 [preauth]
+Nov 13 09:02:11 ubuntu-server sshd[1489]: Invalid user admin from 203.0.113.88 port 41920
+Nov 13 09:02:13 ubuntu-server sshd[1489]: Failed password for invalid user admin from 203.0.113.88 port 41920 ssh2
+Nov 13 09:02:15 ubuntu-server sshd[1489]: Connection closed by invalid user admin 203.0.113.88 port 41920 [preauth]
+Nov 13 10:15:40 ubuntu-server sshd[1532]: Accepted password for pakeeza from 192.168.1.12 port 51204 ssh2
+Nov 13 10:15:40 ubuntu-server sshd[1532]: pam_unix(sshd:session): session opened for user pakeeza(uid=1000) by (uid=0)
+Nov 13 10:18:05 ubuntu-server sudo: pakeeza : TTY=pts/0 ; PWD=/home/pakeeza ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 13 10:18:05 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pakeeza(uid=1000)
+Nov 13 11:45:10 ubuntu-server sshd[1610]: Failed password for invalid user deploy from 198.51.100.24 port 33812 ssh2
+Nov 13 11:45:12 ubuntu-server sshd[1610]: Failed password for invalid user guest from 198.51.100.24 port 33814 ssh2
+Nov 13 12:30:00 ubuntu-server CRON[1688]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 13 12:30:01 ubuntu-server CRON[1688]: pam_unix(cron:session): session closed for user root
+Nov 13 14:22:19 ubuntu-server sshd[1745]: Accepted publickey for pakeeza from 10.0.0.5 port 49152 ssh2: RSA SHA256:9x8y7z6w5v4u3t2s1r0q
+
